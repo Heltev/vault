@@ -1,0 +1,5 @@
+---
+lookup_options:
+  foo::bar:
+    merge: unique
+foo::bar: Wonderful

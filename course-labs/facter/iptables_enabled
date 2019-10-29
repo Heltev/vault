@@ -1,0 +1,8 @@
+#!/bin/sh
+
+if lsmod | grep -qw ip_tables; then
+  echo iptables_enabled=true
+else
+  echo iptables_enabled=false
+fi
+
